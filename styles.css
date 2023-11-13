@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Work Sans", sans-serif;
+    background: rgb(21, 58, 252);
+    background: linear-gradient(
+      90deg,
+      rgba(21, 58, 252, 1) 0%,
+      rgba(139, 149, 201, 1) 50%,
+      rgba(38, 52, 118, 1) 100%
+    );
+    line-height: 25px;
+  }
+
+  /*for the hero section*/
+  #hero{
+    height: 700px;
+    background-image: url(img/aurora.jpg);
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4%;
+}
+
+#title {
+    background: #8b95c9;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin: 0 0 0 0;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  #aurora {
+    background: #092092;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border-radius: 20px;
+  }
+  
+  #intro {
+    background: #263476;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    width: 800px;
+    line-height: 35px;
+    border-radius: 20px;
+  }
